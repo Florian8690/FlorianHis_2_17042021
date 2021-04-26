@@ -134,7 +134,7 @@ article {
   column-gap: 10px;
 }
 #hebergements h1 {
-  width: 90%;
+  width: 95%;
   padding-top: 20px;
 }
 .pictures {
@@ -179,29 +179,66 @@ section {
 #populaires {
   background-color: #f2f2f2;
   margin-left: 15px;
-  width: 25%;
+  width: 30%;
   border-radius: 20px;
 }
-
-.pop {
-  background-color: white;
-  border-radius: 20px;
-  width: 220px;
+#populaires h1 {
   margin-left: 15px;
-  line-height: 1%;
+  padding-top: 20px;
+}
+#populaires .fas {
+  padding-left: 120px;
+}
+#Soleil {
+  display: flex;
+  width: 90%;
+  background-color: white;
+  margin-left: 15px;
+  border-radius: 10px;
+  margin-top: 40px;
+  height: 110px;
+}
+#coeur {
+  display: flex;
+  width: 90%;
+  background-color: white;
+  margin-left: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 110px;
+}
+#bleu {
+  display: flex;
+  width: 90%;
+  background-color: white;
+  margin-left: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 110px;
+}
+#pop {
+  width: 40%;
+}
+#description {
+  padding-left: 15px;
+  line-height: 1px;
 }
 
 #populaires img {
   width: 100%;
-  border-radius: 20px 20px 0px 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   padding: 3px 3px;
+  height: 95%;
+}
+#activites h1 {
+  margin-top: 35px;
 }
 /*Footer*/
 footer {
   display: flex;
   flex-grow: 0;
   background-color: #f2f2f2;
-  border-radius: 20px;
 }
 
 #A_propos {
