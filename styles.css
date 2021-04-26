@@ -1,0 +1,197 @@
+/*Police imposée*/
+@font-face {
+  font-family: "Raleway";
+  src: url("police/raleway-variablefont_wght-webfont.eot") format("eot");
+  src: url("police/raleway-variablefont_wght-webfont.woff") format("woff"),
+    url("police/raleway-variablefont_wght-webfont.ttf") format("truetype"),
+    url("police/raleway-variablefont_wght-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#bloc_page {
+  width: 90%;
+  margin: auto;
+}
+/*Organisation header , manque le padding top au survol nav*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 5px;
+}
+nav a {
+  text-decoration: none;
+  color: #0065fc;
+}
+nav a:focus {
+  text-decoration: overline;
+  color: #0065fc;
+}
+nav a:visited {
+  color: #0065fc;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 35px;
+  margin-top: 15px;
+  padding-top: 8px;
+}
+
+/*Phrases d'accroches*/
+#slogan h1 {
+  width: 50%;
+  font-size: x-large;
+  line-height: 1px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+}
+/*Bouton rechercher*/
+#choix .fas {
+  color: black;
+  background-color: #f2f2f2;
+  padding-bottom: 10px;
+  padding-top: 8px;
+  padding-left: 9px;
+  padding-right: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-right: 0px;
+}
+#choix {
+  display: block;
+}
+
+#rechercher {
+  padding: 9px;
+  border: 1px #f2f2f2 solid;
+  margin-left: 0px;
+}
+::placeholder {
+  font-weight: bold;
+  color: black;
+  padding-left: 5px;
+}
+
+.rechercher {
+  background-color: #0065fc;
+  color: white;
+  padding: 7px 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/*Filtres bouton et icônes*/
+#filtres .fas {
+  color: #0065fc;
+  background-color: #deebff;
+  padding: 5px;
+  margin: none;
+  border-radius: 20px;
+}
+
+.bouton {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  margin-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  font-weight: bold;
+  border-left: none;
+}
+.bouton:hover {
+  background-color: yellow;
+}
+#info .fas {
+  margin-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 8px;
+  padding-left: 9px;
+  border: 1px #f2f2f2 solid;
+  border-radius: 20px;
+  color: #0065fc;
+}
+/*Hebergements à Marseille, cards et h1*/
+article {
+  width: 75%;
+}
+#hebergements {
+  width: 100%;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-content: space-around;
+}
+
+.pictures {
+  background-color: white;
+  border-radius: 20px;
+  width: 220px;
+  margin-left: 15px;
+  line-height: 1%;
+}
+
+#hebergements img {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  padding: 3px 3px;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+}
+
+/*Aside, les plus populaires*/
+#populaires {
+  background-color: #f2f2f2;
+  margin-left: 15px;
+  width: 25%;
+  border-radius: 20px;
+}
+#populaires .fas {
+  margin-left: 140px;
+}
+#populaires h1 {
+  padding-left: 10px;
+}
+
+.pop {
+  background-color: white;
+  border-radius: 20px;
+  width: 220px;
+  margin-left: 15px;
+  line-height: 1%;
+}
+
+#populaires img {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  padding: 3px 3px;
+}
+/*Footer*/
+footer {
+  display: flex;
+  flex-grow: 0;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+}
+
+#A_propos {
+  margin-right: 20%;
+}
+
+#Nos_hébergements {
+  margin-right: 20%;
+}
