@@ -25,8 +25,9 @@ nav a {
   color: #0065fc;
 }
 nav a:focus {
-  text-decoration: overline;
+  border-top: 1px #0065fc solid;
   color: #0065fc;
+  padding-top: 40px;
 }
 nav a:visited {
   color: #0065fc;
@@ -51,6 +52,9 @@ nav li {
   padding-top: 5px;
 }
 /*Bouton rechercher*/
+form {
+  display: flex;
+}
 #choix .fas {
   color: black;
   background-color: #f2f2f2;
@@ -60,10 +64,9 @@ nav li {
   padding-right: 10px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  margin-right: 0px;
 }
 #choix {
-  display: block;
+  display: inline-block;
 }
 
 #rechercher {
@@ -93,6 +96,9 @@ nav li {
   margin: none;
   border-radius: 20px;
 }
+.filtres {
+  font-weight: bold;
+}
 
 .bouton {
   background-color: white;
@@ -120,7 +126,7 @@ nav li {
 }
 /*Hebergements à Marseille, cards et h1*/
 article {
-  width: 75%;
+  width: 70%;
 }
 #hebergements {
   width: 100%;
@@ -128,10 +134,8 @@ article {
   border-radius: 20px;
   flex-wrap: wrap;
   display: flex;
-  justify-content: center;
   justify-content: space-around;
   row-gap: 20px;
-  column-gap: 10px;
 }
 #hebergements h1 {
   width: 95%;
@@ -231,8 +235,94 @@ section {
   padding: 3px 3px;
   height: 95%;
 }
+/*Activités*/
 #activités h1 {
   margin-top: 35px;
+}
+#activités {
+  width: 100%;
+}
+#conteneur {
+  display: flex;
+}
+#vieux_port {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  width: 307px;
+  height: 441px;
+}
+#vieux_port img {
+  width: 100%;
+  height: 85%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#Fort {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  width: 308px;
+  height: 233px;
+}
+
+#Fort img {
+  width: 100%;
+  height: 85%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#Iles {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  width: 305px;
+  height: 161px;
+}
+
+#Iles img {
+  width: 100%;
+  height: 85%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#Parc {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  width: 307px;
+  height: 441px;
+}
+
+#Parc img {
+  width: 100%;
+  height: 85%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#Garde {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  width: 302px;
+  height: 192px;
+}
+#Garde img {
+  width: 100%;
+  height: 85%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#Longchamp {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  width: 302px;
+  height: 206px;
+}
+
+#Longchamp img {
+  width: 100%;
+  height: 85%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 /*Footer*/
 footer {
