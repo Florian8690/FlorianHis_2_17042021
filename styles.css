@@ -84,32 +84,37 @@ form {
   background-color: #0065fc;
   color: white;
   padding: 7px 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 /*Filtres bouton et icônes*/
-#filtres .fas {
+#icone {
   color: #0065fc;
   background-color: #deebff;
-  padding: 5px;
-  margin: none;
   border-radius: 20px;
+  padding: 1em;
 }
 .filtres {
   font-weight: bold;
+  padding-top: 10px;
+}
+#filtres {
+  display: flex;
+  margin-top: 5px;
 }
 
 .bouton {
+  display: flex;
+  align-items: center;
   background-color: white;
   color: black;
   border-radius: 20px;
-  margin-left: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 20px;
+  padding: 0;
   font-weight: bold;
-  border-left: none;
+  margin-left: 45px;
+  padding-right: 10px;
+  border: 1px #f2f2f2 solid;
 }
 .bouton:hover {
   background-color: yellow;
@@ -236,20 +241,22 @@ section {
   height: 95%;
 }
 /*Activités*/
-#activités h1 {
-  margin-top: 35px;
-}
 #activités {
-  width: 100%;
+  width: 1395px;
 }
 #conteneur {
   display: flex;
+  width: 90%;
+  margin-bottom: 45px;
+}
+#conteneur p {
+  padding-left: 15px;
 }
 #vieux_port {
   background-color: whitesmoke;
   border-radius: 20px;
   width: 307px;
-  height: 441px;
+  height: 390px;
 }
 #vieux_port img {
   width: 100%;
@@ -257,17 +264,21 @@ section {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-
+#colonne_1 {
+  flex-direction: column;
+  margin-left: 35px;
+  margin-right: 35px;
+}
 #Fort {
   background-color: whitesmoke;
   border-radius: 20px;
-  width: 308px;
-  height: 233px;
+  width: 260px;
+  height: 210px;
 }
 
 #Fort img {
   width: 100%;
-  height: 85%;
+  height: 75%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -275,13 +286,14 @@ section {
 #Iles {
   background-color: whitesmoke;
   border-radius: 20px;
-  width: 305px;
-  height: 161px;
+  width: 260px;
+  height: 130px;
+  margin-top: 47px;
 }
 
 #Iles img {
   width: 100%;
-  height: 85%;
+  height: 65%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -290,7 +302,7 @@ section {
   background-color: whitesmoke;
   border-radius: 20px;
   width: 307px;
-  height: 441px;
+  height: 390px;
 }
 
 #Parc img {
@@ -299,28 +311,33 @@ section {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
+#colonne_2 {
+  flex-direction: column;
+  margin-left: 35px;
+}
 #Garde {
   background-color: whitesmoke;
   border-radius: 20px;
-  width: 302px;
-  height: 192px;
+  width: 290px;
+  height: 170px;
 }
 #Garde img {
   width: 100%;
-  height: 85%;
+  height: 70%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 #Longchamp {
   background-color: whitesmoke;
   border-radius: 20px;
-  width: 302px;
-  height: 206px;
+  width: 290px;
+  height: 180px;
+  margin-top: 37px;
 }
 
 #Longchamp img {
   width: 100%;
-  height: 85%;
+  height: 75%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
