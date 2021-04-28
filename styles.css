@@ -89,7 +89,7 @@ form {
 }
 
 /*Filtres bouton et icônes*/
-#icone {
+.icone {
   color: #0065fc;
   background-color: #deebff;
   border-radius: 20px;
@@ -101,7 +101,8 @@ form {
 }
 #filtres {
   display: flex;
-  margin-top: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .bouton {
@@ -129,6 +130,9 @@ form {
   border-radius: 20px;
   color: #0065fc;
 }
+#info {
+  margin-bottom: 20px;
+}
 /*Hebergements à Marseille, cards et h1*/
 article {
   width: 70%;
@@ -142,7 +146,7 @@ article {
   justify-content: space-around;
   row-gap: 20px;
 }
-#hebergements h1 {
+#hebergements h2 {
   width: 95%;
   padding-top: 20px;
 }
@@ -155,6 +159,22 @@ article {
   padding-left: 5px;
   padding-top: 5px;
 }
+
+.rate .fas {
+  color: #0065fc;
+  border: none;
+}
+.grey .fas {
+  color: #f2f2f2;
+  border: none;
+}
+.rate {
+  display: flex;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  font-size: small;
+}
+
 #hebergements img {
   width: 98%;
   border-radius: 20px 20px 0px 0px;
@@ -167,9 +187,12 @@ article {
 #hebergements h3 {
   color: black;
   font-weight: bold;
+  padding-left: 5px;
 }
 #hebergements p {
   color: black;
+  padding-left: 5px;
+  padding-top: 5px;
 }
 .plus {
   width: 90%;
@@ -191,12 +214,18 @@ section {
   width: 30%;
   border-radius: 20px;
 }
-#populaires h1 {
+#populaires h2 {
   margin-left: 15px;
   padding-top: 20px;
 }
+#populaires h3 {
+  font-weight: bold;
+  font-size: medium;
+  line-height: 15px;
+}
+
 #populaires .fas {
-  padding-left: 120px;
+  padding-left: 100px;
 }
 #Soleil {
   display: flex;
@@ -225,10 +254,10 @@ section {
   margin-top: 20px;
   height: 110px;
 }
-#pop {
+.pop {
   width: 40%;
 }
-#description {
+.description {
   padding-left: 15px;
   line-height: 1px;
 }
@@ -244,6 +273,9 @@ section {
 #activités {
   width: 1395px;
 }
+#activites h2 {
+  margin-top: 20px;
+}
 #conteneur {
   display: flex;
   width: 90%;
@@ -253,7 +285,7 @@ section {
   padding-left: 15px;
 }
 #vieux_port {
-  background-color: whitesmoke;
+  background-color: white;
   border-radius: 20px;
   width: 307px;
   height: 390px;
